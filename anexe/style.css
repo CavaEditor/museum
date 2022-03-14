@@ -1,0 +1,136 @@
+/*importarea fonturilor din google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+/* descrierea unor elemente care se vor repeta*/
+body{
+    background-color: #ffeed6;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+/* design pentru navbar (meniul de sus)*/
+.navbar nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #c9a675;
+    width: 100%;
+    height: 70px;
+    margin-left: 0;
+}
+.navbar nav .logo{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    /*background-color: aqua;*/
+}
+.navbar nav .listaDinMenu {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+        
+}
+.navbar nav .listaDinMenu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar nav .listaDinMenu ul li{
+    max-width: 50px;   
+}
+/*design containerul care va fi pe toata pagina*/
+#container{
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 1px 1px 1px 1px #c9a675;
+    background-color: #fff3e3;
+}
+
+/*design pentru home page*/
+#home{
+    max-height: 580px;
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://placekitten.com/1000/700');
+}
+#home h1{
+    text-align: center;
+    padding-top: 20%;
+    color: black;
+    font-family: 'Fredoka';
+    text-shadow: 3px 3px #ffeed6;
+}
+#home .btnContacte{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: #c9a675;
+    border-radius: 10px;
+} 
+
+#home .btnContacte a{
+    display: flex;
+    align-self: center;
+}
+
+
+/*design pentru about*/
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about h2{
+    font-size: 35px;
+    font-family: 'Fredoka';
+    text-align: center;
+    text-shadow: 2px 2px #c9a675;
+}
+#about h3{
+    font-size: 20px;
+    font-family: 'Fredoka';
+}
+#about .info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+#about .info .parteaStanga, .parteaDreapta{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+#about .info .parteaStanga img{
+    width: 200px;
+    height: 200px;
+}
+#about p{
+    font-size: 14px;
+    font-family: 'Fredoka';
+}
+
+/*design pentru servicii*/
+#service{
+
+}
+/*design pentru contacte*/
+#contacte{}
+/*design pentru footer (partea de jos)*/
+.footer{}
